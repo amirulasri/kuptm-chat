@@ -1,9 +1,11 @@
 :root {
-    --chatBackground: #2C3333;
+    --chatBackground: #212525;
+    --loginformbackground: rgb(57, 57, 57);
 }
 
 .loginform {
-    background-color: var(--chatBackground);
+    background-color: var(--loginformbackground);
+    border-radius: 6px;
     max-width: 330px;
     margin: 0 auto;
     display: flex;
